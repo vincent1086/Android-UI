@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <com.example.customviewpager.widget.TabRow
+            android:id="@+id/tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            custom:items="@array/tab_items" />
+
+        <com.example.customviewpager.widget.Workspace
+            android:id="@+id/workspace"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="#007CFF"
+                android:cacheColorHint="@null"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:entries="@array/list_items"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="5dip" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="#5EFF00"
+                android:cacheColorHint="@null"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:entries="@array/list_items"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="5dip" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="#FF6200"
+                android:cacheColorHint="@null"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:entries="@array/list_items"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="5dip" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="#08D1B3"
+                android:cacheColorHint="@null"
+                android:choiceMode="singleChoice"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="0dp"
+                android:entries="@array/list_items"
+                android:fadeScrollbars="false"
+                android:scrollbarSize="5dip" />
+        </com.example.customviewpager.widget.Workspace>
+    </LinearLayout>
+
+</FrameLayout>

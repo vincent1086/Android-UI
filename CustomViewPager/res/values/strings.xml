@@ -1,0 +1,66 @@
+<resources>
+
+    <string-array name="list_items">
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+        <item>item</item>
+    </string-array>
+    <string-array name="tab_items">
+        <item>首頁</item>
+        <item>影片</item>
+        <item>播放清單</item>
+        <item>頻道</item>
+    </string-array>
+    <string name="app_name">CustomViewPager</string>
+
+</resources>
