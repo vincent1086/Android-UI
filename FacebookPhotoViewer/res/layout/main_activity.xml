@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <com.example.facebookphotoviewer.CustomImageView
+        android:id="@+id/fullImageView"
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:background="#33ff0000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_test"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/thumbnailImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_test" />
+
+</RelativeLayout>
